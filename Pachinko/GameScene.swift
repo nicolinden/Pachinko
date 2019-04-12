@@ -10,6 +10,7 @@ import SpriteKit
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     var scoreLabel: SKLabelNode!
+    var ballNames = ["ballBlue", "ballCyan", "ballGreen", "ballGrey", "ballPurple", "ballRed", "ballYellow"]
     
     var score = 0 {
         didSet {
@@ -123,13 +124,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 box.physicsBody?.isDynamic = false
                 addChild(box)
             } else {
-                let ball = SKSpriteNode(imageNamed: "ballRed")
-                ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width / 2.0)
-                ball.physicsBody?.restitution = 0.4
-                ball.physicsBody?.contactTestBitMask = ball.physicsBody?.collisionBitMask ?? 0
-                ball.position = location
-                ball.name = "ball"
-                addChild(ball)
+                let ballName = ballNames[Int.random(in: 0...6)]
+                let ball = SKSpriteNode(imageNamed: ballName)
+                
+                if location.y > 1100 {
+                    ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width / 2.0)
+                    ball.physicsBody?.restitution = 0.4
+                    ball.physicsBody?.contactTestBitMask = ball.physicsBody?.collisionBitMask ?? 0
+                    ball.position = location
+                    ball.name = "ball"
+                    addChild(ball)
+                }
             }
         }
     }
