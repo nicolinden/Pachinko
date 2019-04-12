@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		03CEBE7F2260B62800D0F6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBE7E2260B62800D0F6F6 /* AppDelegate.swift */; };
 		03CEBE812260B62800D0F6F6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBE802260B62800D0F6F6 /* GameScene.sks */; };
-		03CEBE832260B62800D0F6F6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBE822260B62800D0F6F6 /* Actions.sks */; };
 		03CEBE852260B62800D0F6F6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBE842260B62800D0F6F6 /* GameScene.swift */; };
 		03CEBE872260B62800D0F6F6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBE862260B62800D0F6F6 /* GameViewController.swift */; };
 		03CEBE8A2260B62800D0F6F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBE882260B62800D0F6F6 /* Main.storyboard */; };
 		03CEBE8C2260B62800D0F6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBE8B2260B62800D0F6F6 /* Assets.xcassets */; };
 		03CEBE8F2260B62800D0F6F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBE8D2260B62800D0F6F6 /* LaunchScreen.storyboard */; };
+		03CEBED02260DBB100D0F6F6 /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBECF2260DBB100D0F6F6 /* FireParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03CEBE7B2260B62800D0F6F6 /* Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachinko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CEBE7E2260B62800D0F6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03CEBE802260B62800D0F6F6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		03CEBE822260B62800D0F6F6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		03CEBE842260B62800D0F6F6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		03CEBE862260B62800D0F6F6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		03CEBE892260B62800D0F6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03CEBE8B2260B62800D0F6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03CEBE8E2260B62800D0F6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03CEBE902260B62800D0F6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CEBECF2260DBB100D0F6F6 /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 		03CEBE7D2260B62800D0F6F6 /* Pachinko */ = {
 			isa = PBXGroup;
 			children = (
+				03CEBECF2260DBB100D0F6F6 /* FireParticles.sks */,
 				03CEBE7E2260B62800D0F6F6 /* AppDelegate.swift */,
 				03CEBE802260B62800D0F6F6 /* GameScene.sks */,
-				03CEBE822260B62800D0F6F6 /* Actions.sks */,
 				03CEBE842260B62800D0F6F6 /* GameScene.swift */,
 				03CEBE862260B62800D0F6F6 /* GameViewController.swift */,
 				03CEBE882260B62800D0F6F6 /* Main.storyboard */,
@@ -133,9 +133,9 @@
 			files = (
 				03CEBE8A2260B62800D0F6F6 /* Main.storyboard in Resources */,
 				03CEBE812260B62800D0F6F6 /* GameScene.sks in Resources */,
+				03CEBED02260DBB100D0F6F6 /* FireParticles.sks in Resources */,
 				03CEBE8C2260B62800D0F6F6 /* Assets.xcassets in Resources */,
 				03CEBE8F2260B62800D0F6F6 /* LaunchScreen.storyboard in Resources */,
-				03CEBE832260B62800D0F6F6 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
